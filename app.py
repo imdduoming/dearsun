@@ -16,7 +16,6 @@ import hashlib
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 
-
 app = Flask(__name__)
 
 SECRET_KEY = 'SPARTA'
